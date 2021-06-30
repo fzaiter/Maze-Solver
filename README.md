@@ -1,6 +1,10 @@
 # Maze-Solver
 Evaluation of a new multi-agent approach on maze problems based on the Q-learning algorithm
 
+*SUBMITTED AS PART OF THE REQUIREMENTS FOR
+THE AWARD OF THE DEGREE IN COMPUTING AND
+INFORMATION SYSTEMS OF THE UNIVERSITY OF LONDON*
+
 ## Abstract
 
 The maze-solving problem consists of a system of paths on which,
