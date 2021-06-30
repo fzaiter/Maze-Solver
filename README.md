@@ -1,5 +1,5 @@
 # Maze-Solver
-Evaluation of a new multi-agent approach on maze problems based on the Q-learning algorithm
+**EVALUATION OF A NEW MULTI-AGENT APPROACH ON MAZE PROBLEMS BASED ON THE Q-LEARNING ALGORITHM**
 
 *SUBMITTED AS PART OF THE REQUIREMENTS FOR
 THE AWARD OF THE DEGREE IN COMPUTING AND
