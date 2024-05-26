@@ -6,7 +6,9 @@ BSc FINAL PROJECT SUBMITTED AS PART OF THE REQUIREMENTS FOR THE AWARD OF THE DEG
 
 This project explores a novel multi-agent reinforcement learning (MARL) approach to solving maze problems using the Q-learning algorithm. Traditionally, maze-solving relies on a single agent to find the shortest path from a start to an end point. This project investigates the potential benefits of employing two agents working together to solve the maze by meeting at a dynamic intermediate goal state.
 
+<p align="center">
 ![gif](assets/Maze5-Multi-agentSolution-5000episodes_5000steps.gif)
+</p>
 
 ## Key Features
 
