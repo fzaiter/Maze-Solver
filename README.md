@@ -1,12 +1,12 @@
 # EVALUATION OF A NEW MULTI-AGENT APPROACH ON MAZE PROBLEMS BASED ON THE Q-LEARNING ALGORITHM
 
+BSc FINAL PROJECT SUBMITTED AS PART OF THE REQUIREMENTS FOR THE AWARD OF THE DEGREE IN COMPUTING AND INFORMATION SYSTEMS OF THE UNIVERSITY OF LONDON
+
 ## Project Overview
 
 This project explores a novel multi-agent reinforcement learning (MARL) approach to solving maze problems using the Q-learning algorithm. Traditionally, maze-solving relies on a single agent to find the shortest path from a start to an end point. This project investigates the potential benefits of employing two agents working together to solve the maze by meeting at a dynamic intermediate goal state.
 
 ![gif](assets/Maze5-Multi-agentSolution-5000episodes_5000steps.gif)
-
-## Languages/ Libraries Used
 
 ## Key Features
 
@@ -28,7 +28,24 @@ A series of 10 different maze designs, of increasing size and difficulty, was se
 
 ![Maze Designs](<assets/Appendix B - Maze Designs.png>)
 
-<video controls src="assets/Section 3.1 - Maze solver system.mp4" title="Title"></video>
+## User Interface
+
+It is not the intention of this project to provide a maze-solving application. However, it’s
+been decided to implement a simple GUI that helps better control the system during the
+experiments.
+
+![USer Interface](<Maze Solver app.png>)
+
+## Implementation
+
+Python 3.8.5 has been used for the implementation of the system. The reason for this being that it already has a series of libraries and frameworks developed around it that have made its use on machine learning projects the most common practice nowadays.
+
+| Library    | Version  | Function                                               |
+| ---------- | -------- | ------------------------------------------------------ |
+| OpenCV     | 4.4.0.46 | Graphic representation of maze solving                 |
+| Matplotlib | 3.3.2    | Plotting results and graphs for evaluation             |
+| Numpy      | 1.18.5   | Adding support to large arrays and matrices operations |
+| Pillow     | 8.2.0    | Image manipulation                                     |
 
 ## Project Deliverables
 
@@ -42,6 +59,8 @@ A series of 10 different maze designs, of increasing size and difficulty, was se
 - **Small Mazes:** Multi-agent approach shows superior performance in solving simple mazes efficiently.
 - **Medium and Large Mazes:** Demonstrates significant adaptability and improved efficiency over traditional methods.
 - **Special Designs:** Highlights scenarios where the new approach provides clear benefits.
+
+![Cumulative reward obtained for Maze 4A during 1000 episodes at 1000 steps per episode](<assets/Graphs Example 4A.png>)
 
 ## Future work
 
