@@ -34,7 +34,7 @@ It is not the intention of this project to provide a maze-solving application. H
 been decided to implement a simple GUI that helps better control the system during the
 experiments.
 
-![USer Interface](<Maze Solver app.png>)
+![USer Interface](<assets/Maze Solver app.png>)
 
 ## Implementation
 
