@@ -4,7 +4,9 @@
 
 This project explores a novel multi-agent reinforcement learning (MARL) approach to solving maze problems using the Q-learning algorithm. Traditionally, maze-solving relies on a single agent to find the shortest path from a start to an end point. This project investigates the potential benefits of employing two agents working together to solve the maze by meeting at a dynamic intermediate goal state.
 
-<video controls src="assets/readme_videos/Maze 5 - Multi-agent Solution - 5000 episodes_5000 steps.mp4" title="Maze 5 - Multi-agent Solution - 5000 episodes_5000 steps"></video>
+![gif](assets/Maze5-Multi-agentSolution-5000episodes_5000steps.gif)
+
+## Languages/ Libraries Used
 
 ## Key Features
 
@@ -12,13 +14,21 @@ This project explores a novel multi-agent reinforcement learning (MARL) approach
 - **Reinforcement Learning:** Based on the Q-learning algorithm to enable agents to learn the optimal paths through the maze.
 - **Dynamic Goal State:** A novel concept where the goal state can change dynamically, enhancing the agents' ability to find efficient paths.
 
-##
+![gif](assets/Multi-agent-500Episodes-200Steps-Q-Table_Startagent.gif)
 
 ## Aims and Objectives
 
 1. **Evaluate Performance:** Compare the efficiency and effectiveness of the multi-agent approach against traditional single-agent methods.
 2. **Literature Integration:** Incorporate findings from existing research on maze-solving and reinforcement learning to provide a comprehensive analysis.
 3. **Explore Multi-Agent Frameworks:** Provide an overview of common multi-agent approaches and their applicability to maze-solving.
+
+## Experiments
+
+A series of 10 different maze designs, of increasing size and difficulty, was selected for the system to solve. The reason for evaluating different scenarios is to make sure a particular scenario doesn’t benefit any of the approaches. This is a common practice on maze solving as can be seen in related literature. Their designs are carefully crafted to test the efficiency and adaptability of the algorithm.
+
+![Maze Designs](<assets/Appendix B - Maze Designs.png>)
+
+<video controls src="assets/Section 3.1 - Maze solver system.mp4" title="Title"></video>
 
 ## Project Deliverables
 
@@ -41,16 +51,3 @@ Despite the progress made, further work is required to fully realize the potenti
 - **Resource Analysis:** Conduct a detailed analysis of memory usage and processing power for both single-agent and multi-agent systems by benchmarking and profiling resource consumption across various maze complexities.
 - **Distributed Processing:** Implement the multi-agent algorithm on separate processing units, develop communication protocols, and compare performance metrics like latency and throughput.
 - **Complex Environments and Real-world applications":** Test the algorithm in varied scenarios to evaluate its robustness, including environments with intermediate goal states and dynamic obstacles, and extend the approach to more complex environments and real-world applications where unexpected obstacles may appear.
-
-## Installation
-
-To replicate the experiments and explore the maze-solving system, clone the repository and run the provided scripts:
-'''
-git clone https://github.com/fzaiter/Multi-Agent_Maze-Solver.git
-cd Multi-Agent_Maze-Solver
-python main.py
-'''
-
-## Usage
-
-Use the graphical user interface to select different maze designs and test the single-agent and multi-agent models. Analyze the results through the generated graphs and data.
