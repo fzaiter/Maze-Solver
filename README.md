@@ -6,7 +6,7 @@ BSc FINAL PROJECT SUBMITTED AS PART OF THE REQUIREMENTS FOR THE AWARD OF THE DEG
 
 This project explores a novel multi-agent reinforcement learning (MARL) approach to solving maze problems using the Q-learning algorithm. Traditionally, maze-solving relies on a single agent to find the shortest path from a start to an end point. This project investigates the potential benefits of employing two agents working together to solve the maze by meeting at a dynamic intermediate goal state.
 
-<p align="center"><img src="assets/Maze5-Multi-agentSolution-5000episodes_5000steps.gif" alt="Multi-agent solution example" max-height="500" /><br>
+<p align="center"><img src="assets/Maze5-Multi-agentSolution-5000episodes_5000steps.gif" alt="Multi-agent solution example" max-height="500"/><br>
 <sub>Multi-agent approach</sub></p>
 
 ## Key Features
@@ -15,7 +15,7 @@ This project explores a novel multi-agent reinforcement learning (MARL) approach
 - **Reinforcement Learning:** Based on the Q-learning algorithm to enable agents to learn the optimal paths through the maze.
 - **Dynamic Goal State:** A novel concept where the goal state can change dynamically, enhancing the agents' ability to find efficient paths.
 
-<p align="center"><img src="assets/Multi-agent-500Episodes-200Steps-Q-Table_Startagent.gif" alt="Q Table progression" height="300" width="300"/><br>
+<p align="center"><img src="assets/Multi-agent-500Episodes-200Steps-Q-Table_Startagent.gif" alt="Q Table progression" max-height="300"/><br>
 <sub>Example of Q table progression for the multi-agent approach</sub></p>
 
 ## Aims and Objectives
@@ -28,7 +28,7 @@ This project explores a novel multi-agent reinforcement learning (MARL) approach
 
 A series of 10 different maze designs, of increasing size and difficulty, was selected for the system to solve. The reason for evaluating different scenarios is to make sure a particular scenario doesn’t benefit any of the approaches. This is a common practice on maze solving as can be seen in related literature. Their designs are carefully crafted to test the efficiency and adaptability of the algorithm.
 
-<p align="center"><img src="assets/Appendix B - Maze Designs.png" alt="Maze Designs" height="500" width="500" /><br>
+<p align="center"><img src="assets/Appendix B - Maze Designs.png" alt="Maze Designs" max-height="500"/><br>
 <sub>Maze designs used for experiments</sub></p>
 
 ## User Interface
@@ -37,7 +37,7 @@ It is not the intention of this project to provide a maze-solving application. H
 been decided to implement a simple GUI that helps better control the system during the
 experiments.
 
-<p align="center"><img src="assets/Maze Solver app.png" alt="User Interface" height="400" width="400" /><br>
+<p align="center"><img src="assets/Maze Solver app.png" alt="User Interface" max-height="400"/><br>
 <sub>Maze Solver App - User Interface</sub></p>
 
 ## Implementation
@@ -64,7 +64,7 @@ Python 3.8.5 has been used for the implementation of the system. The reason for 
 - **Medium and Large Mazes:** Demonstrates significant adaptability and improved efficiency over traditional methods.
 - **Special Designs:** Highlights scenarios where the new approach provides clear benefits.
 
-<p align="center"><img src="assets/Graphs Example 4A.png" alt="Cumulative reward obtained for Maze 4A during 1000 episodes at 1000 steps per episode" height="500" width="500" /><br>
+<p align="center"><img src="assets/Graphs Example 4A.png" alt="Cumulative reward obtained for Maze 4A during 1000 episodes at 1000 steps per episode" max-height="500"/><br>
 <sub>Cumulative reward obtained for Maze 4A during 1000 episodes at 1000 steps per episode</sub></p>
 
 ## Future work
